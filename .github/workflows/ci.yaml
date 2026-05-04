@@ -30,4 +30,4 @@ jobs:
           pip install pip-audit 
           pip-audit -r requirements.txt 
       - name: Secret scan - Gitleaks 
-          uses: gitleaks/gitleaks-action@v2 
+        uses: gitleaks/gitleaks-action@v2 
